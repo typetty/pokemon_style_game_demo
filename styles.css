@@ -1,0 +1,99 @@
+* {
+    font-family: 'Press Start 2P';
+}
+body {
+    background-color: black;
+    text-align: center;
+}
+.transition {
+    background-color: black;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10;
+}
+.battleText {
+    background-color: white;
+    height: 25%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    position: absolute;
+    border-style: double;
+    border-width: 5px;
+}
+.battleTextDescription {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    display: none;
+    cursor: pointer;
+}
+.battleButtons {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.battleTypes {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 5px black double;
+}
+.enemyHealth {
+    background-color: white;
+    width: 35%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    border: 5px black double;
+    padding: 10px;
+}
+.playerHealth {
+    background-color: white;
+    width: 35%;
+    position: absolute;
+    right: 5%;
+    top: 55%;
+    border: 5px black double;
+    padding: 10px;
+}
+.healthBarBase {
+    background-color: #9a9898;
+    height: 5px;
+}
+.healthStatus {
+    background-color: rgb(37, 219, 37);
+    height: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.monsterName {
+    font-size: 16px;
+    text-align: left;
+}
+h2 {
+    margin: 0;
+    font-size: 16px;
+}
+button {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: grey;
+}
