@@ -1,9 +1,9 @@
 # pokemon_style_game_demo
-<h1>Description</h1>
+<h2>Description</h2>
 This is a demo project for a pokemon style game using javascirpt, HTML, and CSS. Simply a demo to learn and show what I can do.
-<h1>Site to Play</h1>
-I have this on GitHub pages to allow others to trial it and test it for themselves.
-<h1>Plans for the Future</h1>
+<h2>Site to Play</h2>
+I have this on GitHub pages to allow others to trial it and test it for themselves. Page link is found <span href="https://typetty.github.io/pokemon_style_game_demo/">here</span>.
+<h2>Plans for the Future</h2>
 Later I am planning on slowly incorporating the following:
 <ul>
   <li>Movement based on the landing on the grid squares, not just by 3 pixels per keydown,</li>
