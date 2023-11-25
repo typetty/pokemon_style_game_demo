@@ -2,7 +2,7 @@
 <h2>Description</h2>
 This is a demo project for a pokemon style game using javascirpt, HTML, and CSS. Simply a demo to learn and show what I can do.
 <h2>Site to Play</h2>
-I have this on GitHub pages to allow others to trial it and test it for themselves. Page link is found <a href="https://typetty.github.io/pokemon_style_game_demo/">here</a>.
+I have this on GitHub pages to allow others to trial it and test it for themselves. Page link is found <a target="_blank" href="https://typetty.github.io/pokemon_style_game_demo/">here</a>.
 <h2>Plans for the Future</h2>
 Later I am planning on slowly incorporating the following:
 <ul>
