@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Style Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style="display: inline-block; position: relative;">
+        <div id="overlappingDiv" class="transition"></div>
+        <canvas></canvas>
+        <!--Battle box and text to attack-->
+        <div id="battleInterface">
+            <!--Enemy Health display-->
+            <div class="enemyHealth">
+                <h1 class="monsterName">Draggle</h1>
+                <div style="position: relative;">
+                    <div class="healthBarBase"></div>
+                    <div id="enemyHealthStatus" class="healthStatus"></div>
+                </div>
+            </div>
+            <!--Your Health display-->
+            <div class="playerHealth">
+                <h1 class="monsterName">Emby</h1>
+                <div style="position: relative;">
+                    <div class="healthBarBase"></div>
+                    <div id="playerHealthStatus" class="healthStatus"></div>
+                </div>
+            </div>
+            <!--Bottom battle text box-->
+            <div class="battleText">
+                <div id="dialogueBox" class="battleTextDescription"></div>
+                <div id="battleButtons" class="battleButtons"></div>
+                <div class="battleTypes">
+                    <h2 id="battleTypesText">Attack Type</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Import all the scripts to use in the game-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js" integrity="sha512-xi/RZRIF/S0hJ+yJJYuZ5yk6/8pCiRlEXZzoguSMl+vk2i3m6UjUO/WcZ11blRL/O+rnj94JRGwt/CHbc9+6EA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="data/audio.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="data/attacks.js"></script>
+    <script src="data/battleZones.js"></script>
+    <script src="data/collisions.js"></script>
+    <script src="data/monsters.js"></script>
+    <script src="classes.js"></script>
+    <script src="index.js"></script>
+    <script src="battleScene.js"></script>
+    
+    
+</body>
+</html>
